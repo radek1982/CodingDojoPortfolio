@@ -78,6 +78,45 @@ margin: 0 auto;
     font-style: normal;
     text-decoration: none   ;
 }
+
+ul#projects {
+    margin-top:20px;    
+  
+}
+
+ul#projects li {
+   margin: 0 0 0 25px;
+    
+}
+
+ul#projects li:last-of-type {
+    margin-right: 0;
+     
+ }
+ ul#projects li:first-of-type{
+    margin-left: 0;
+     
+ }
+ 
+
+ ul#projects .project.box {
+     height: 700px;
+    overflow: hidden;
+ }
+
+ .project.box >.content {
+
+height:400px;
+ }
+ul#projects .box {
+    width:304px;
+
+}
+ul#projects .box .content img { 
+max-width: 290px;
+overflow: hidden;
+}
+
 ul#social_media {
     margin-top:10px;
 }
@@ -138,4 +177,26 @@ min-height:212px;
     vertical-align: middle;
 }
 
+.box.technologies .content {
+    min-height: 100%;
+    background-color: pink;
+}
+.box.technologies .content img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px 10px;
+}
 
+.box.technologies .content a.info {
+    display: block;
+    width:200px;
+    margin: 0 auto;
+    background:#407D61;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    font-style: bold;
+    box-shadow: 2px 2px 1px #000;
+}
