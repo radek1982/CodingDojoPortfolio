@@ -1,0 +1,41 @@
+/* reset */
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+background: rgb(78,58,66);
+background: linear-gradient(90deg, rgba(78,58,66,1) 0%, rgba(52,34,40,1) 100%);
+}
+/* layout */
+
+#header {
+    background: #F8F8F8;
+    height: 64px;
+}
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+/* content */
+.photo {
+    width: 409px;
+    border: 5px solid #c0c0c0;
+    margin-top: 20px;
+}
+
+.box .title {
+    padding: 10px;
+    color:#FFF;
+    background: linear-gradient(180deg, #8E8D99 0%, #A09FA7 100%);
+
+}
+.box .content {
+padding: 10px;
+background: linear-gradient(90deg, #FFFFFF 50%, #DBCCDA 179.21%);
+
+}
+.box {
+}
